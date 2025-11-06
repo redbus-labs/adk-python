@@ -1,0 +1,35 @@
+# Commit Plan - One by One
+
+## Group 1: PostgreSQL Core Utilities
+1. src/google/adk/utils/postgres_db_helper.py
+
+## Group 2: PostgreSQL Services
+2. src/google/adk/sessions/postgres_session_service.py
+3. src/google/adk/memory/postgres_memory_service.py
+
+## Group 3: Runner Implementation
+4. src/google/adk/runner/postgres_runner.py
+5. src/google/adk/runner/__init__.py
+
+## Group 4: Server Implementation
+6. src/google/adk/server/app_server.py
+7. src/google/adk/server/server_handler.py
+8. src/google/adk/server/orchestrators/generic_orchestrator.py
+9. src/google/adk/server/orchestrators/ticket_information_agent.py
+
+## Group 5: Model Implementation
+10. src/google/adk/models/redbus_adg.py
+11. src/google/adk/models/__init__.py
+
+## Group 6: Test Files
+12. tests/unittests/sessions/test_postgres_session_service.py
+13. tests/unittests/memory/test_postgres_memory_service.py
+
+## Group 7: Example/Config Files
+14. config.ini.example
+15. config.example.json
+16. config.example.yaml
+17. java_to_python_mapping_example.py
+
+## Group 8: Configuration
+18. .gitignore
