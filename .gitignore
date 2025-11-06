@@ -84,6 +84,10 @@ log/
 .env.production.local
 uv.lock
 
+# Configuration files with sensitive data
+config.ini
+*.ini.local
+
 # Google Cloud specific
 .gcloudignore
 .gcloudignore.local

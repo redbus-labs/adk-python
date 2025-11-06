@@ -1,0 +1,15 @@
+# Example configuration file for Postgres ADK Server
+# Copy this file to config.yaml and update with your values
+
+production:
+  database:
+    url: "postgresql://postgres:postgres@localhost:5432/adk_db"
+  
+development:
+  database:
+    url: "postgresql://postgres:postgres@localhost:5432/adk_db_dev"
+
+# Alternative format (direct keys):
+# db_url: "postgresql://postgres:postgres@localhost:5432/adk_db"
+# database_url: "postgresql://postgres:postgres@localhost:5432/adk_db"
+

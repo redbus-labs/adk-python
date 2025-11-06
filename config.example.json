@@ -1,0 +1,13 @@
+{
+  "production": {
+    "database": {
+      "url": "postgresql://postgres:postgres@localhost:5432/adk_db"
+    }
+  },
+  "development": {
+    "database": {
+      "url": "postgresql://postgres:postgres@localhost:5432/adk_db_dev"
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+# Example configuration file for ADK App Server
+# Copy this file to config.ini and update with your values
+
+[default]
+# Default configuration values
+runner_type = postgres
+database_url = postgresql://postgres:postgres@localhost:5432/adk_db
+
+[production]
+# Production environment overrides
+database_url = postgresql://username:password@hostname:5432/database
+db_schema = your_schema_name
+runner_type = postgres
+
+[development]
+# Development environment overrides
+database_url = postgresql://postgres:postgres@localhost:5432/adk_db_dev
+runner_type = inmemory
+
+[test]
+# Test environment overrides
+runner_type = inmemory
+
